@@ -61,7 +61,7 @@ function App() {
         <h1 className="flex place-self-center underline mb-3 text-3xl font-bold">
           Add Marks
         </h1>
-        <div className="flex flex-col p-4 w-[500px] gap-4 border-4 border-black place-self-center">
+        <div className="flex flex-col p-4 sm:w-[500px] w-[300px] gap-4 border-4 border-black place-self-center">
           <div className="flex justify-between w-[275px]">
             <label name="getMarks" className="text-xl font-medium">
               Get Marks:{" "}
@@ -123,7 +123,7 @@ function App() {
         <h1 className="flex place-self-center underline mb-3 text-3xl font-bold">
           Marks List
         </h1>
-        <div className="flex flex-col w-[500px] border-4 border-black place-self-center">
+        <div className="flex flex-col sm:w-[500px] w-[300px] border-4 border-black place-self-center">
           <div className="flex flex-row gap-2 pl-3 justify-around">
             <h1 className="w-[85px] font-medium text-xl">Get Mark</h1>
             <h1 className="w-[85px] font-medium text-xl">Out Of</h1>
